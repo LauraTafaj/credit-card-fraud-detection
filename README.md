@@ -159,7 +159,23 @@ After `main.py` finishes, open the `outputs/` folder to see the metrics table
 
 ---
 
-## 5. Notes
+## 5. Results
+
+### F1-score comparison
+
+![F1 comparison](outputs/f1_comparison.png)
+
+### ROC curves
+
+![ROC curves](outputs/roc_curves.png)
+
+### Confusion matrices
+
+![Confusion matrices](outputs/confusion_matrices.png)
+
+---
+
+## 6. Notes
 
 - Re-running `main.py` overwrites the saved models and figures.
 - The random seed is fixed (`42`) so results are reproducible.

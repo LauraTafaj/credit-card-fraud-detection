@@ -7,4 +7,7 @@ __pycache__/
 data/creditcard.csv
 
 models/
-outputs/
+
+outputs/*.csv
+outputs/class_distribution.png
+outputs/amount_distribution.png
