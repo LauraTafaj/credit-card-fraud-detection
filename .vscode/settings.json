@@ -1,0 +1,14 @@
+{
+    // Tell VS Code to use the Python interpreter inside our virtual environment.
+    // After you create the venv (py -m venv venv), VS Code will use this one.
+    "python.defaultInterpreterPath": "${workspaceFolder}\\venv\\Scripts\\python.exe",
+
+    // Run scripts from the project root so the data/, models/ and outputs/
+    // folders are always found correctly.
+    "python.terminal.activateEnvironment": true,
+
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    }
+}

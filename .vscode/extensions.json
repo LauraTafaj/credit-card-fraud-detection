@@ -1,0 +1,8 @@
+{
+    // When you open this folder, VS Code will suggest installing these helpful
+    // extensions for Python development.
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+    ]
+}
