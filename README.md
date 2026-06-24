@@ -6,10 +6,6 @@ Decision Tree, Random Forest, and an Artificial Neural Network (ANN)** — on th
 well-known Kaggle credit-card dataset, and reports their performance using
 Accuracy, Precision, Recall, F1-score and ROC-AUC.
 
-The four models were chosen because they are the algorithms that appear across
-the reference papers used for this project (the neural-network paper, the
-NN/RF/KNN comparison paper, and the UNLV thesis on logistic regression / random
-forest / XGBoost).
 
 ---
 
