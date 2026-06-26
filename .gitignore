@@ -9,5 +9,3 @@ data/creditcard.csv
 models/
 
 outputs/*.csv
-outputs/class_distribution.png
-outputs/amount_distribution.png

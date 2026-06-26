@@ -60,6 +60,21 @@ credit-card-fraud-detection/
 
 ---
 
+## Class imbalance
+
+The dataset is highly imbalanced — only **492 out of 284,807 transactions are fraud (0.17%)**.
+
+![Class distribution](outputs/class_distribution.png)
+
+A model trained on this data as-is would simply predict "normal" every time and still achieve 99.8% accuracy — which is useless for detecting fraud.
+
+**How we handle it:**
+- The training set is balanced using **SMOTE** (Synthetic Minority Over-sampling Technique), which generates synthetic fraud examples so the models learn to recognise fraud patterns instead of ignoring them.
+- SMOTE is applied **only to the training set** — the test set is left untouched so evaluation reflects real-world conditions.
+- Evaluation focuses on **Precision, Recall, F1-score and ROC-AUC** rather than accuracy, since these metrics actually reflect how well fraud is caught.
+
+---
+
 ## Results
 
 ### F1-score comparison
